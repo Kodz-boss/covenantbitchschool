@@ -1,0 +1,571 @@
+*{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.icon{
+    display: none;
+    visibility: hidden;
+}
+
+.menu{
+    display: none;
+    visibility: hidden;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 90, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.dark{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.655);
+}
+header{
+    width: 100%;
+    height: 80vh;
+    background-image: url('diverse-teenage-friends-eat-lunch-in-school-cafeteria.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    display: flex;
+}
+
+.navlink{
+    display: flex;
+    gap: 27px;
+    flex-direction: row;
+    padding-left: 30px;
+}
+
+.navlinks{
+    color: white;
+    font-size: 16px;
+}
+
+.first{
+    color: white;
+}
+
+.holder{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    margin-top: 180px;
+    margin-left: 200px;
+    color: white;
+    gap: 15px;
+}
+
+.gets{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(186, 121, 0);
+}
+
+
+
+.part1{
+    width: 100%;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.part1holder{
+    width: fit-content;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+}
+
+.part1holdee{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    height: 100%;
+    box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.803);
+}
+
+.part1pic1{
+    width: 100%;
+    height: 300px;
+    background-image: url('happy-student-girl-with-books-isolated-free-photo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part1pic2{
+    width: 100%;
+    height: 300px;
+    background-image: url('man.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part1pic3{
+    width: 100%;
+    height: 300px;
+    background-image: url('books.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.under{
+    padding-top: 15px;
+}
+
+
+
+.part2{
+    background-color: rgb(0, 90, 0);
+    width: 100%;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.part2holder1{
+    width: 30%;
+    height: 450px;
+}
+
+.part2holder2{
+    width: 40%;
+    height: 400px;
+    color: white;
+    padding-left: 70px;
+    line-height: 25px;
+}
+
+.part2pic{
+    background-image: url('Coffee.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+ul{
+    padding-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.part2text1{
+    margin-top: 10px;
+}
+
+.part2text3{
+    margin-top: 10px;
+}
+
+.part5{
+    width: 100%;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.part5holder{
+    width: 70%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 25px;
+    background-color: rgb(0, 90, 0);
+}
+
+.apply{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(186, 121, 0);
+}
+
+
+.part4{
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.part4box{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.part4head{
+    color: rgb(186, 121, 0);
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    background-color: rgb(181, 181, 181);
+}
+
+.footerpart1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 22px;
+}
+
+.footerpart2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 22px;
+    margin-left: 50px;
+}
+
+.footerpart3{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 22px;
+}
+
+.footname{
+    color: rgb(186, 121, 0);
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 700px){
+    footer{
+        width: 100%;
+        height: fit-content;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+        background-color: rgb(181, 181, 181);
+    }
+
+    .footerpart1{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        line-height: 22px;
+    }
+    
+    .footerpart2{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        line-height: 22px;
+        /* padding-left: -20px; */
+        /* margin-left: 50px; */
+    }
+    
+    .footerpart3{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        line-height: 22px;
+        padding-left: 25px;
+    }
+    
+    .footname{
+        color: rgb(186, 121, 0);
+        margin-bottom: 10px;
+    }
+    .part4{
+        width: 100%;
+        height: fit-content;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+    
+    .part4box{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .part2{
+        background-color: rgb(181, 181, 181);
+        width: 100%;
+        height: fit-content;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .part2holder1{
+        width: 80%;
+        height: 450px;
+    }
+    
+    .part2holder2{
+        width: 90%;
+        height: fit-content;
+        color: white;
+        padding-left: 0px;
+        line-height: 25px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .part2pic{
+        background-image: url('Coffee.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    .part1{
+        width: 100%;
+        height: fit-content;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+    }
+    
+    .part1holder{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .part1holdee{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+        height: 350px;
+        box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.803);
+    }
+    
+    .part1pic1{
+        width: 100%;
+        height: 300px;
+        background-image: url('happy-student-girl-with-books-isolated-free-photo.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .part1pic2{
+        width: 100%;
+        height: 300px;
+        background-image: url('man.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .part1pic3{
+        width: 100%;
+        height: 300px;
+        background-image: url('books.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .under{
+        padding-top: 15px;
+    }
+
+    .navlink{
+        display: none;
+        visibility: hidden;
+    }
+    
+    .holder{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+        color: white;
+        text-align: center;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header{
+        width: 100%;
+        height: 80vh;
+        background-image: url('diverse-teenage-friends-eat-lunch-in-school-cafeteria.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btnholder{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cov{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .part5{
+        width: 100%;
+        height: fit-content;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .part5holder{
+        width: 80%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        gap: 25px;
+        background-color: rgb(0, 90, 0);
+        text-align: center;
+    }
+
+    .part5text{
+        width: 85%;
+    }
+
+    .icon{
+        display: block;
+        visibility: visible;
+        color: white;
+        font-size: 20px;
+    }
+
+    nav{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(0, 90, 0);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .menu{
+        display: block;
+        visibility: hidden;
+        width: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 70px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgb(181, 181, 181);
+        transition: .5s;
+        transform: translateX(-100);
+    }
+
+    .active{
+        width: 60%;
+        transform: translateX(0%);
+        visibility: visible;
+    }
+
+    .navlinkss{
+        font-size: 21px;
+        color: black;
+    }
+    
+}
